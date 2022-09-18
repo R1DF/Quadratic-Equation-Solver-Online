@@ -15,7 +15,7 @@ function triggerSolution() {
     if (coefA === 0) {
         solutionText.innerHTML = "Please enter a nonzero coefficient for A!";
     } else {
-        let discriminant = (coefB * coefB) - (4 * coefA * coefB)
+        let discriminant = (coefB * coefB) - (4 * coefA * coefC);
         if (discriminant < 0) {
             solutionText.innerHTML = "".concat("The discriminant (", discriminant, ") is negative. There are complex roots.");
         } else if (discriminant === 0){
