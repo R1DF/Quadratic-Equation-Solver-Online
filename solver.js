@@ -19,7 +19,7 @@ function triggerSolution() {
     }
 
     if (coefA === 0) {
-        solutionText.innerHTML = "Please enter a nonzero coefficient for A!";
+        solutionText.innerHTML = "Please enter a nonzero coefficient for A! (or try out the <a style='text-decoration: underline;' href='https://r1df.github.io/Linear-Equation-Solver-Online/'>linear</a> solver...)";
 
     } else {
         // Discriminant before calculations
